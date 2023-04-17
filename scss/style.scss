@@ -1,0 +1,22 @@
+$fontfamily: "lato";
+$fontsize: 14px;
+$fontcolor: red;
+
+// @import "nullstyle.scss";
+
+.wrapper {
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+
+}
+
+.main {
+	flex: 1 1 auto;
+}
+
+[class*="__container"] {
+	max-width: 1057px;
+	margin: 0px auto;
+}
