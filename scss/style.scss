@@ -23,7 +23,7 @@ $fontcolor: black;
 }
 
 .header {
-	background-color: #a17171;
+	background-color: #3a8fb1;
 }
 
 .header__menu {
@@ -62,7 +62,7 @@ $fontcolor: black;
 }
 
 .card__block {
-	margin: 20px 20px;
+	margin: 50px 20px;
 
 }
 
@@ -84,7 +84,11 @@ $fontcolor: black;
 	}
 
 }
-
+.the__best{
+	text-align: center;
+	font-size: 25px;
+	text-transform: uppercase;
+}
 .text {
 	margin: 10px 0px 0px 0px;
 	text-align: center;

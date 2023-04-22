@@ -107,7 +107,7 @@ h6 {
 }
 
 .header {
-  background-color: #a17171;
+  background-color: #3a8fb1;
 }
 
 .header__menu {
@@ -142,7 +142,7 @@ h6 {
 }
 
 .card__block {
-  margin: 20px 20px;
+  margin: 50px 20px;
 }
 
 .first__card {
@@ -159,6 +159,12 @@ h6 {
 }
 .first__card .card__item img {
   max-width: 100%;
+}
+
+.the__best {
+  text-align: center;
+  font-size: 25px;
+  text-transform: uppercase;
 }
 
 .text {
