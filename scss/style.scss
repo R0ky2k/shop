@@ -24,6 +24,7 @@ $fontcolor: black;
 
 .header {
 	background-color: #3a8fb1;
+	color: #fff;
 }
 
 .header__menu {
@@ -32,6 +33,8 @@ $fontcolor: black;
 	align-items: center;
 	min-height: 100px;
 	margin: 20px 20px;
+	
+	
 
 	.menu__registr {
 		display: flex;
@@ -42,6 +45,13 @@ $fontcolor: black;
 	.menu__registr li {
 		margin: 0px 0px 10px 0px;
 		font-size: 15px;
+		a{
+			color: #fff;
+			transition: color 0.5s ease;
+		}
+		a:hover{
+			color: #101c52;
+		}
 	}
 
 	.header__logo img {
@@ -52,7 +62,13 @@ $fontcolor: black;
 
 .menu__list {
 	display: flex;
-
+	a{
+		color: #fff;
+		transition: color 0.5s ease;
+	}
+	a:hover{
+		color: #101c52;
+	}
 	li {
 		margin: 0px 20px 0px 0px;
 		font-size: 18px;

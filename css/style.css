@@ -108,6 +108,7 @@ h6 {
 
 .header {
   background-color: #3a8fb1;
+  color: #fff;
 }
 
 .header__menu {
@@ -126,6 +127,13 @@ h6 {
   margin: 0px 0px 10px 0px;
   font-size: 15px;
 }
+.header__menu .menu__registr li a {
+  color: #fff;
+  transition: color 0.5s ease;
+}
+.header__menu .menu__registr li a:hover {
+  color: #101c52;
+}
 .header__menu .header__logo img {
   max-width: 90px;
   border-radius: 50%;
@@ -133,6 +141,13 @@ h6 {
 
 .menu__list {
   display: flex;
+}
+.menu__list a {
+  color: #fff;
+  transition: color 0.5s ease;
+}
+.menu__list a:hover {
+  color: #101c52;
 }
 .menu__list li {
   margin: 0px 20px 0px 0px;
