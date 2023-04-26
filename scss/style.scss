@@ -13,8 +13,37 @@ $fontcolor: black;
 
 }
 
+.ibg {
+	position: relative;
+	// background-position: center;
+	// background-size: cover;
+	// background-repeat: no-repeat;
+}
+
+.ibg img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	object-fit: cover;
+}
+
+.main-screen{
+	flex: 0 0 10%;
+
+	&__bg{
+		padding: 0px 0px 100% 0px;
+		
+		img{
+			border-radius: 50%;
+		}
+	}
+
+}	
+
 .main {
-	flex: 1 1 auto;
+
 	background: url(/images/калибри.jpg)0 0/cover no-repeat;
 
 }
@@ -34,67 +63,73 @@ $fontcolor: black;
 	align-items: center;
 	min-height: 100px;
 	margin: 20px 20px;
+}
 
+.order {
+	display: flex;
+	align-items: center;
 
-	.order{
+	.order__icon {
 		display: flex;
 		align-items: center;
-		.order__icon{
-			display: flex;
-			align-items: center;
-			.like, .kart{
-				margin: 0px 20px 0px 0px;
-				
-			}
-		}
-		.text__order{
-			display: flex;
-			flex-direction: column;
 
-			.sum{
-				margin: 0px 0px 5px 0px;
-				font-size: 16px;
-			}
-			.orange{
-				font-size: 17px;
-				color: orange;
-			}
+		.like,
+		.kart {
+			margin: 0px 20px 0px 0px;
 
 		}
-
 	}
-	.menu__registr {
+
+	.text__order {
 		display: flex;
 		flex-direction: column;
-		align-items: center;
-		.ico{
-			margin: 0px 0px 10px 0px;
-			
+
+		.sum {
+			margin: 0px 0px 5px 0px;
+			font-size: 16px;
 		}
+
+		.orange {
+			font-size: 17px;
+			color: orange;
+		}
+
 	}
 
-	.menu__registr li {
+}
+
+.menu__registr {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	.ico {
 		margin: 0px 0px 10px 0px;
-		font-size: 15px;
 
-		a {
-			color: #fff;
-			transition: color 0.5s ease;
-		}
-
-		a:hover {
-			color: #0055cc;
-		}
-	}
-
-	.header__logo img {
-		max-width: 90px;
-		border-radius: 50%;
 	}
 }
 
+.menu__registr li {
+	margin: 0px 0px 10px 0px;
+	font-size: 15px;
+
+	a {
+		color: #fff;
+		transition: color 0.5s ease;
+	}
+
+	a:hover {
+		color: #0055cc;
+	}
+}
+
+
+
+
 .menu__list {
 	display: flex;
+	margin: 0px 0px 0px 10px;
+	
 
 	a {
 		color: #fff;
@@ -130,7 +165,7 @@ $fontcolor: black;
 		flex: 1 1 25%;
 		padding: 0px 15px;
 		margin: 0px 0px 50px 0px;
-		
+
 		img {
 			max-width: 100%;
 			border-radius: 5px;
@@ -167,14 +202,16 @@ $fontcolor: black;
 
 	}
 }
-.search{
-text-align: center;
+
+.search {
+	text-align: center;
 }
+
 .search-menu {
 	position: relative;
 	display: inline-block;
 	margin: 0px 20px 0px 0px;
-	
+
 	.search-form {
 		display: flex;
 		align-items: center;
