@@ -16,15 +16,15 @@ $fontcolor: black;
 .main {
 	flex: 1 1 auto;
 	background: url(/images/калибри.jpg)0 0/cover no-repeat;
+
 }
 
 [class*="__container"] {
-	max-width: 1057px;
+	max-width: 1750px;
 	margin: 0px auto;
 }
 
 .header {
-	background-color: #3a8fb1;
 	color: #fff;
 }
 
@@ -36,11 +36,41 @@ $fontcolor: black;
 	margin: 20px 20px;
 
 
+	.order{
+		display: flex;
+		align-items: center;
+		.order__icon{
+			display: flex;
+			align-items: center;
+			.like, .kart{
+				margin: 0px 20px 0px 0px;
+				
+			}
+		}
+		.text__order{
+			display: flex;
+			flex-direction: column;
 
+			.sum{
+				margin: 0px 0px 5px 0px;
+				font-size: 16px;
+			}
+			.orange{
+				font-size: 17px;
+				color: orange;
+			}
+
+		}
+
+	}
 	.menu__registr {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		.ico{
+			margin: 0px 0px 10px 0px;
+			
+		}
 	}
 
 	.menu__registr li {
@@ -91,7 +121,7 @@ $fontcolor: black;
 .first__card {
 	display: flex;
 	flex-wrap: wrap;
-	margin: 100px -15px;
+	margin: 50px -15px;
 
 	.card__item {
 		display: flex;
@@ -99,7 +129,7 @@ $fontcolor: black;
 		align-items: center;
 		flex: 1 1 25%;
 		padding: 0px 15px;
-		margin: 0px 0px 10px 0px;
+		margin: 0px 0px 50px 0px;
 		
 		img {
 			max-width: 100%;
@@ -121,7 +151,7 @@ $fontcolor: black;
 }
 
 .text {
-	margin: 10px 0px 0px 0px;
+	margin: 20px 0px 0px 0px;
 	text-align: center;
 
 	.card__title {
@@ -137,7 +167,9 @@ $fontcolor: black;
 
 	}
 }
-
+.search{
+text-align: center;
+}
 .search-menu {
 	position: relative;
 	display: inline-block;

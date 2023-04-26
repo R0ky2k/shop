@@ -103,12 +103,11 @@ h6 {
 }
 
 [class*=__container] {
-  max-width: 1057px;
+  max-width: 1750px;
   margin: 0px auto;
 }
 
 .header {
-  background-color: #3a8fb1;
   color: #fff;
 }
 
@@ -119,10 +118,36 @@ h6 {
   min-height: 100px;
   margin: 20px 20px;
 }
+.header__menu .order {
+  display: flex;
+  align-items: center;
+}
+.header__menu .order .order__icon {
+  display: flex;
+  align-items: center;
+}
+.header__menu .order .order__icon .like, .header__menu .order .order__icon .kart {
+  margin: 0px 20px 0px 0px;
+}
+.header__menu .order .text__order {
+  display: flex;
+  flex-direction: column;
+}
+.header__menu .order .text__order .sum {
+  margin: 0px 0px 5px 0px;
+  font-size: 16px;
+}
+.header__menu .order .text__order .orange {
+  font-size: 17px;
+  color: orange;
+}
 .header__menu .menu__registr {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.header__menu .menu__registr .ico {
+  margin: 0px 0px 10px 0px;
 }
 .header__menu .menu__registr li {
   margin: 0px 0px 10px 0px;
@@ -164,7 +189,7 @@ h6 {
 .first__card {
   display: flex;
   flex-wrap: wrap;
-  margin: 100px -15px;
+  margin: 50px -15px;
 }
 .first__card .card__item {
   display: flex;
@@ -172,7 +197,7 @@ h6 {
   align-items: center;
   flex: 1 1 25%;
   padding: 0px 15px;
-  margin: 0px 0px 10px 0px;
+  margin: 0px 0px 50px 0px;
 }
 .first__card .card__item img {
   max-width: 100%;
@@ -190,7 +215,7 @@ h6 {
 }
 
 .text {
-  margin: 10px 0px 0px 0px;
+  margin: 20px 0px 0px 0px;
   text-align: center;
 }
 .text .card__title {
@@ -202,6 +227,10 @@ h6 {
   font-size: 15px;
   font-style: italic;
   margin: 0px 0px 10px 0px;
+}
+
+.search {
+  text-align: center;
 }
 
 .search-menu {

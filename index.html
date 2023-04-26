@@ -11,33 +11,48 @@
 
 <body>
 	<div class="wrapper">
-		<header class="header">
-			<div class="header__container">
-
-				<nav class="header__menu menu">
-					<a href="#" class="header__logo"><img src="/images/logo.png" alt=""></a>
-					<ul class="menu__list">
-						<li class="menu__item"><a href="" class="menu__link">Каталог</a></li>
-						<li class="menu__item"><a href="" class="menu__link">Телефон</a></li>
-						<li class="menu__item"><a href="" class="menu__link">Просмотренное</a></li>
-						<li class="menu__item"><a href="" class="menu__link">Корзина</a></li>
-					</ul>
-					<div class="search-menu">
-						<form class="search-form">
-							<input type="text" placeholder="Поиск...">
-							<button type="submit">Найти</button>
-						</form>
-					</div>
-					<ul class="menu__registr">
-						<li class="menu__item"><a href="login.html" class="menu__link">Войти</a></li>
-						<li class="menu__item"><a href="register.html" class="menu__link">Регистрация</a></li>
-						<li class="menu__item"><a href="" class="menu__link">Выйти</a></li>
-					</ul>
-				</nav>
-			</div>
-		</header>
 		<main class="main">
-			<div class="card__container">
+			<header class="header">
+
+					<nav class="header__menu menu">
+						<a href="#" class="header__logo"><img src="/images/logo.png" alt=""></a>
+						<ul class="menu__list">
+							<li class="menu__item"><a href="" class="menu__link">Каталог</a></li>
+							<li class="menu__item"><a href="" class="menu__link">Телефон</a></li>
+							<li class="menu__item"><a href="" class="menu__link">Просмотренное</a></li>
+							<li class="menu__item"><a href="" class="menu__link">Корзина</a></li>
+						</ul>
+
+						
+						<div class="order">
+								<div class="order__icon">
+									<img src="/images/icon/like.svg" alt="" class="like">
+									<img src="/images/icon/order.svg"  alt="" class="kart">
+								</div>
+								<div class="text__order">
+									<p class="sum">0 рублей</p>
+									<p class="orange">Оформить заказ</p>
+								</div>
+						</div>
+						
+						<ul class="menu__registr">
+							<img src="/images/icon/Group.svg" class="ico" alt="">
+							<li class="menu__item"><a href="login.html" class="menu__link">Войти</a></li>
+							<li class="menu__item"><a href="register.html" class="menu__link">Регистрация</a></li>
+							<li class="menu__item"><a href="" class="menu__link">Выйти</a></li>
+						</ul>
+					</nav>
+
+			</header>
+			<div class="search">
+				<div class="search-menu">
+					<form class="search-form">
+						<input type="text" placeholder="Поиск...">
+						<button type="submit">Найти</button>
+					</form>
+				</div>
+			</div>
+			<div class="card">
 				<div class="card__block">
 					<div class="the__best">Лучшее предложение</div>
 					<div class="first__card card">
